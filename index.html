@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RISE AND FALL VI | Jeremy</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div id="main-container">
+    <div id="header">RISE AND FALL VI | JEREMY</div>
+
+    <div id="controls">
+        <input type="text" id="apiToken" placeholder="Enter Deriv API Token">
+        <select id="timeframe">
+            <option value="1">1 Min</option>
+            <option value="2">2 Min</option>
+            <option value="3">3 Min</option>
+            <option value="4">4 Min</option>
+            <option value="5">5 Min</option>
+        </select>
+        <button id="connectBtn">CONNECT</button>
+        <button id="scanBtn" disabled>SCAN STRONG SIGNAL</button>
+    </div>
+
+    <div class="chart-container">
+        <h3>Bollinger Bands</h3>
+        <canvas id="bbChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <h3>MACD</h3>
+        <canvas id="macdChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <h3>EMA + RSI</h3>
+        <canvas id="emaRsiChart"></canvas>
+    </div>
+
+    <div id="signal-output">Strongest Signal: --</div>
+    <div id="entry-exit">Entry: -- | Projected Exit: --</div>
+    <div id="countdown">--</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

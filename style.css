@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    text-align: center;
+}
+
+#main-container {
+    display: block;
+    padding: 20px;
+}
+
+#header {
+    font-size: 28px;
+    color: #00ff00;
+    margin-bottom: 20px;
+}
+
+#controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+button#connectBtn {
+    background: #00ff00;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button#scanBtn {
+    background: #ff0000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.chart-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #111;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #00ff00;
+}
+
+#signal-output, #entry-exit {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+#countdown {
+    color: #00ff00;
+    margin-top: 10px;
+    font-size: 18px;
+}
